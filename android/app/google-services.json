@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927745276436",
+    "project_id": "ficcoding",
+    "storage_bucket": "ficcoding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927745276436:android:9a8b1ea3c2778aef024501",
+        "android_client_info": {
+          "package_name": "com.cheiviz.ficcoding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbuoKe_2OHNMTSMi6DySsiavv2Ab6wq78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
