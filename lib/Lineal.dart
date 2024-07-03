@@ -207,7 +207,7 @@ class _LinealState extends State<Lineal> {
                 },
                 style: const ButtonStyle(
                     backgroundColor:
-                        MaterialStatePropertyAll(Colors.orangeAccent)),
+                        WidgetStatePropertyAll(Colors.orangeAccent)),
                 child: const Text("Calcular"),
               ),
             ],

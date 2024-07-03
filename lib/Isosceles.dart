@@ -170,8 +170,7 @@ class _IsoscelesState extends State<Isosceles> {
                 );
               },
               style: const ButtonStyle(
-                  backgroundColor:
-                      MaterialStatePropertyAll(Colors.orangeAccent)),
+                  backgroundColor: WidgetStatePropertyAll(Colors.orangeAccent)),
               child: const Text("Calcular"),
             )
           ],
