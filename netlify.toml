@@ -1,9 +1,0 @@
-[build]
-  command = "./build.sh"
-  publish = "build/web"
-
-[build.environment]
-  PATH = "/opt/buildhome/flutter/bin:/opt/buildhome/flutter/bin/cache/dart-sdk/bin:/usr/local/bin:/usr/bin:/bin"
-
-[context.production.environment]
-  GO_VERSION = "1.19.x"  # Asegúrate de especificar la versión correcta de Go que deseas usar
