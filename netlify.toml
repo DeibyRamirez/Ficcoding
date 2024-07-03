@@ -1,3 +1,6 @@
 [build]
-  command = "C:\\Users\\w10\\OneDrive\\Documents\\FLUTTER\\bin\\flutter.bat build web"
+  command = "./build.sh"
   publish = "build/web"
+
+[build.environment]
+  PATH = "/opt/buildhome/flutter/bin:/opt/buildhome/flutter/bin/cache/dart-sdk/bin:/usr/local/bin:/usr/bin:/bin"
