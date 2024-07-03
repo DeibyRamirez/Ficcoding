@@ -3,7 +3,7 @@
   publish = "build/web"
 
 [build.environment]
-  PATH = "/opt/buildhome/flutter/bin:/opt/buildhome/flutter/bin/cache/dart-sdk/bin:/usr/local/bin:/usr/bin:/bin:$HOME/.gvmo/bin"
+  PATH = "/opt/buildhome/flutter/bin:/opt/buildhome/flutter/bin/cache/dart-sdk/bin:/usr/local/bin:/usr/bin:/bin:$HOME/.gimme/bin"
 
 [context.production.environment]
   GO_VERSION = "1.17.x"
