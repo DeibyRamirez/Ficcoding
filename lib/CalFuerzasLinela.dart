@@ -289,9 +289,9 @@ class _CalcularLState extends State<CalcularL> {
                           });
                         },
                         style: ButtonStyle(
-                            elevation: MaterialStateProperty.all(10),
+                            elevation: WidgetStateProperty.all(10),
                             backgroundColor:
-                                const MaterialStatePropertyAll(Colors.orange)),
+                                const WidgetStatePropertyAll(Colors.orange)),
                         child: const Text("Ingresar los signos"),
                       ),
                       Card(
@@ -510,9 +510,9 @@ class _CalcularLState extends State<CalcularL> {
                           });
                         },
                         style: ButtonStyle(
-                            elevation: MaterialStateProperty.all(10),
+                            elevation: WidgetStateProperty.all(10),
                             backgroundColor:
-                                const MaterialStatePropertyAll(Colors.orange)),
+                                const WidgetStatePropertyAll(Colors.orange)),
                         child: const Text("Ingresar los signos"),
                       ),
                       Card(
@@ -731,9 +731,9 @@ class _CalcularLState extends State<CalcularL> {
                           });
                         },
                         style: ButtonStyle(
-                            elevation: MaterialStateProperty.all(10),
+                            elevation: WidgetStateProperty.all(10),
                             backgroundColor:
-                                const MaterialStatePropertyAll(Colors.orange)),
+                                const WidgetStatePropertyAll(Colors.orange)),
                         child: const Text("Ingresar los signos"),
                       ),
                       Card(

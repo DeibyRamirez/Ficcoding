@@ -323,8 +323,8 @@ class _CalFuerzasRectanguloState extends State<CalFuerzasRectangulo> {
                         },
                         style: ButtonStyle(
                           backgroundColor:
-                              MaterialStateProperty.all(Colors.orange),
-                          elevation: MaterialStateProperty.all(10),
+                              WidgetStateProperty.all(Colors.orange),
+                          elevation: WidgetStateProperty.all(10),
                         ),
                         child: const Text("Ingresar los signos"),
                       ),
@@ -447,8 +447,8 @@ class _CalFuerzasRectanguloState extends State<CalFuerzasRectangulo> {
                   });
                 },
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.orange),
-                  elevation: MaterialStateProperty.all(10),
+                  backgroundColor: WidgetStateProperty.all(Colors.orange),
+                  elevation: WidgetStateProperty.all(10),
                 ),
                 child: const Text("Ingresar los signos"),
               ),
@@ -670,8 +670,8 @@ class _CalFuerzasRectanguloState extends State<CalFuerzasRectangulo> {
                   });
                 },
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.orange),
-                  elevation: MaterialStateProperty.all(10),
+                  backgroundColor: WidgetStateProperty.all(Colors.orange),
+                  elevation: WidgetStateProperty.all(10),
                 ),
                 child: const Text("Ingresar los signos"),
               ),

@@ -230,7 +230,7 @@ class _RectanguloState extends State<Rectangulo> {
                 },
                 style: const ButtonStyle(
                     backgroundColor:
-                        MaterialStatePropertyAll(Colors.orangeAccent)),
+                        WidgetStatePropertyAll(Colors.orangeAccent)),
                 child: const Text("Calcular"),
               ),
             ],
