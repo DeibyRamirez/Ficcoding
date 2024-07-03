@@ -4,6 +4,3 @@
 
 [build.environment]
   PATH = "/opt/buildhome/flutter/bin:/opt/buildhome/flutter/bin/cache/dart-sdk/bin:/usr/local/bin:/usr/bin:/bin"
-
-[context.production.environment]
-  GO_VERSION = "go1.X.X"  # Asegúrate de colocar la misma versión que especificaste en build.sh
