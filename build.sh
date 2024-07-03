@@ -8,7 +8,7 @@ if ! command -v gimme &> /dev/null; then
 fi
 
 # Configurar la versión de Go que necesitas
-eval "$(GIMME_GO_VERSION='go1.X.X' gimme)"
+eval "$(GIMME_GO_VERSION='go1.X.X' gimme)"  # Asegúrate de reemplazar 'go1.X.X' con la versión de Go necesaria
 
 # Resto del script para Flutter y construcción de la aplicación web
 # Instalar Flutter, configurar y construir la aplicación web
