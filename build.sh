@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install Flutter
+# Instalar Flutter
 if [ ! -d "$HOME/flutter" ]; then
   git clone https://github.com/flutter/flutter.git -b stable $HOME/flutter
 fi
@@ -8,11 +8,11 @@ fi
 export PATH="$PATH:$HOME/flutter/bin"
 flutter --version
 
-# Enable Flutter Web
+# Habilitar Flutter Web
 flutter config --enable-web
 
-# Install dependencies
+# Instalar dependencias
 flutter pub get
 
-# Build the web app
+# Construir la aplicación web
 flutter build web
