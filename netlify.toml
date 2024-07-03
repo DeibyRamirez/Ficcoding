@@ -1,3 +1,0 @@
-[build]
-  command = "C:\\Users\\w10\\OneDrive\\Documents\\FLUTTER\\bin\\flutter.bat build web"
-  publish = "build/web"
