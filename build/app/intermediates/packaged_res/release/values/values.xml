@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">927745276436</string>
+    <string name="google_api_key" translatable="false">AIzaSyBbuoKe_2OHNMTSMi6DySsiavv2Ab6wq78</string>
+    <string name="google_app_id" translatable="false">1:927745276436:android:9a8b1ea3c2778aef024501</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBbuoKe_2OHNMTSMi6DySsiavv2Ab6wq78</string>
+    <string name="google_storage_bucket" translatable="false">ficcoding.appspot.com</string>
+    <string name="project_id" translatable="false">ficcoding</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>
